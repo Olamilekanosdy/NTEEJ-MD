@@ -12,7 +12,7 @@ global.sudo = process.env.SUDO
   : "null";
 global.owner = process.env.OWNER_NUMBER
   ? process.env.OWNER_NUMBER.replace(/[\s+]/g, "")
-  : "263714497545";
+  : "94766153432";
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
@@ -31,7 +31,7 @@ module.exports = {
   author: process.env.PACK_AUTHER || "NTEEJ-MD",
   packname: process.env.PACK_NAME || "NTEEJ",
   botname: process.env.BOT_NAME || "NTEEJ-MD",
-  ownername: process.env.OWNER_NAME || "Nteej",
+  ownername: process.env.OWNER_NAME || "Olamilekan",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
