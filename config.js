@@ -16,10 +16,10 @@ global.owner = process.env.OWNER_NUMBER
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
-  "";
+  "https://i.postimg.cc/FssKzLK7/20240622-140407.jpg,https://i.postimg.cc/FssKzLK7/20240622-140407.jpg";
 global.userImages =
   process.env.USER_IMAGES ||
-  "";
+  "https://i.postimg.cc/FssKzLK7/20240622-140407.jpg,https://i.postimg.cc/FssKzLK7/20240622-140407.jpg,https://i.postimg.cc/FssKzLK7/20240622-140407.jpg";
 ///===========[global iMPORTS]====================//
 
 module.exports = {
@@ -56,7 +56,7 @@ global.github = process.env.GITHUB || "https://github.com/Ntee-j01/NTEEJ-MD";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vae3GZF9Bb658QgSCl1I";
 global.website = process.env.GURL || "https://chat.whatsapp.com/Er6RNNNVWV5LORN9Nr6hL7";
 global.devs = "263714497545";
-global.msg_style = process.env.STYLE || "2";
+global.msg_style = process.env.STYLE || "1";
 global.session_reset = process.env.SS_RESET || "false";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
