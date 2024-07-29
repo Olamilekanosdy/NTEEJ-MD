@@ -16,10 +16,10 @@ global.owner = process.env.OWNER_NUMBER
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
-  "https://i.postimg.cc/FssKzLK7/20240622-140407.jpg,https://i.postimg.cc/FssKzLK7/20240622-140407.jpg";
+  "https://www.flickr.com/photos/37357601@N04/3528522550,https://www.flickr.com/photos/37357601@N04/3528522550";
 global.userImages =
   process.env.USER_IMAGES ||
-  "https://i.postimg.cc/FssKzLK7/20240622-140407.jpg,https://i.postimg.cc/FssKzLK7/20240622-140407.jpg,https://i.postimg.cc/FssKzLK7/20240622-140407.jpg";
+  "https://www.flickr.com/photos/37357601@N04/3528522550,https://www.flickr.com/photos/37357601@N04/3528522550,https://www.flickr.com/photos/37357601@N04/3528522550";
 ///===========[global iMPORTS]====================//
 
 module.exports = {
